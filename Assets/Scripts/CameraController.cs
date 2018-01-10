@@ -35,7 +35,7 @@ public class CameraController : MonoBehaviour {
 		float distance = Vector3.Distance(projectedPos, _transform.position);
 		if (distance > StartMovementDist)
 		{
-			Debug.Log(_goal);
+			//Debug.Log(_goal);
 			_moving = true;
 		}
 		else if (distance < 0.01f)
